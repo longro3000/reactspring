@@ -27,6 +27,7 @@ export default class AppNavbar extends Component {
           </NavItem>
           <NavItem>
             <NavLink href="https://github.com/oktadeveloper/okta-spring-boot-react-crud-example">GitHub</NavLink>
+            <div></div>
           </NavItem>
         </Nav>
       </Collapse>
