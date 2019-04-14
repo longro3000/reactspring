@@ -12,3 +12,10 @@ before_install:
 branches:
    only:
    - test
+before_script:
+   - cp src/main/resources/travis_application.properties src/main/resources/application.properties
+deploy:
+ provider: heroku
+ api-key: f052109c-a2b2-4275-a890-174d86ec8406
+  secure: $HEROKU_API_KEY
+ app: e1601108reactspring
